@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "three": "^0.138.3"
+  },
+  "name": "pink_cube",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve --config ./webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
